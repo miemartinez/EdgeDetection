@@ -51,4 +51,5 @@ __Example:__ <br>
 The code has been developed in Jupyter Notebook and tested in the terminal on Jupyter Hub on worker02. I therefore recommend cloning the Github repository to worker02 and running the scripts from there. 
 
 ### Results:
-For a view of the results when running the script on the Jefferson Memorial image see the out folder.
+For a view of the results when running the script on the Jefferson Memorial image see the out folder. <br>
+Using the set parameters, the command line tool finds 787 contours on the Jefferson Memorial image. In contrast, the text contains 467 letters and punctuation. So, the tool overshoots the number of letters. Upon inspection of the image it becomes clear that this is due to i) the crevices in the wall are also identified as objects and ii) some of the contours around the letters a broken and so they are counted as multiple contours.
